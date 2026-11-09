@@ -33,8 +33,7 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --header 'Authorization: Bearer YOUR_API_TOKEN' \
   --data '{
-  "usernames": ["johndoe", "janedoe"],
-  }
+  "usernames": ["johndoe", "janedoe"]
 }'
 ```
 
@@ -52,7 +51,7 @@ The Actor accepts a JSON schema with the following structure:
 
 ```json
 {
-  "usernames": ["techuser", "designuser"],
+  "usernames": ["techuser", "designuser"]
 }
 ```
 
