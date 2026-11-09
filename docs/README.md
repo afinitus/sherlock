@@ -57,7 +57,7 @@ To search for more than one user:
 sherlock user1 user2 user3
 ```
 
-Accounts found will be stored in an individual text file with the corresponding username (e.g ```user123.txt```).
+Use `--txt` to save the accounts found to an individual text file named after the username (e.g ```user123.txt```).
 
 ```console
 $ sherlock --help
